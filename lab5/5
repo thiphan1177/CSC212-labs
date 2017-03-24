@@ -1,0 +1,104 @@
+Script started on Thu 02 Mar 2017 05:36:34 PM EST
+[4maurora[24m:[1m~/lab5[0m> javac -g SampleJDB.java
+[4maurora[24m:[1m~/lab5[0m> jdb SampleJDB
+Initializing jdb ...
+> stop in SampleJDB.lottery
+Deferring breakpoint SampleJDB.lottery.
+It will be set after the class is loaded.
+> stop at SampleJDB:13
+Deferring breakpoint SampleJDB:13.
+It will be set after the class is loaded.
+> watch SampleJDB.number
+Deferring watch modification of SampleJDB.number.
+It will be set after the class is loaded.
+> run SampleJDB
+run  SampleJDB
+Set uncaught java.lang.Throwable
+Set deferred uncaught java.lang.Throwable
+> 
+VM Started: Set deferred watch modification of SampleJDB.number
+Set deferred breakpoint SampleJDB:13
+Set deferred breakpoint SampleJDB.lottery
+
+Breakpoint hit: "thread=main", SampleJDB.factorial(), line=13 bci=0
+13        	if (n <= 1) {
+
+main[1] print n
+ n = 6
+main[1] cn ont
+> 
+Breakpoint hit: "thread=main", SampleJDB.factorial(), line=13 bci=0
+13        	if (n <= 1) {
+
+main[1] print n
+ n = 5
+main[1] clear SampleJDB:13
+Removed: breakpoint SampleJDB:13
+main[1] stop in SampleJDB. :14
+Set breakpoint SampleJDB:14
+main[1] cont
+> 
+Breakpoint hit: "thread=main", SampleJDB.factorial(), line=14 bci=5
+14        	    return 1;
+
+main[1] where
+  [1] SampleJDB.factorial (SampleJDB.java:14)
+  [2] SampleJDB.factorial (SampleJDB.java:16)
+  [3] SampleJDB.factorial (SampleJDB.java:16)
+  [4] SampleJDB.factorial (SampleJDB.java:16)
+  [5] SampleJDB.factorial (SampleJDB.java:16)
+  [6] SampleJDB.factorial (SampleJDB.java:16)
+  [7] SampleJDB.main (SampleJDB.java:31)
+main[1] print n
+ n = 1
+main[1] up
+main[2] print n
+ n = 2
+main[2] up 
+main[3] print n
+ n = 3
+main[3] cont
+> 
+Field (SampleJDB.number) is 0, will be 573: "thread=main", SampleJDB.main(), line=32 bci=23
+32        	number = (int)(1000.0*Math.random());
+
+main[1] print SampleJDB.number
+ SampleJDB.number = 0
+main[1] step
+
+Step completed: "thread=main", SampleJDB.main(), line=33 bci=26
+33        	for (int i = 0; i < 1000; i++) {
+
+main[1] main[1] print SampleJDB.number
+ SampleJDB.number = 573
+main[1] step 
+> 
+Step completed: "thread=main", SampleJDB.main(), line=34 bci=37
+34        	    if (i == number) {
+
+main[1] step
+> 
+Step completed: "thread=main", SampleJDB.main(), line=33 bci=48
+33        	for (int i = 0; i < 1000; i++) {
+
+main[1] cont
+> 
+Breakpoint hit: "thread=main", SampleJDB.lottery(), line=22 bci=0
+22    	     System.out.println("Congratulations!  You have won our lottery!");
+
+main[1] up
+main[2] locals
+Method arguments:
+args = instance of java.lang.String[0] (id=403)
+Local variables:
+x = 720.0
+y = 2.718281828459045
+i = 573
+main[2] cont
+Congratulations!  You have won our lottery!
+> 
+The application exited
+[4maurora[24m:[1m~/lab5[0m> exit
+exit
+
+Script done on Thu 02 Mar 2017 05:39:51 PM EST

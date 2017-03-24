@@ -1,0 +1,35 @@
+Script started on Sat Feb 18 13:15:31 2017
+[?1034hbash-3.2$ javac NumberFacts.java
+bash-3.2$ java NumberFacts
+Please enter an integer: 3
+3 doubled is 6
+3 squared is 9.0
+3 square rooted is 1.7320508075688772
+3 divided by 7 is 0.0
+3 divided by 7.0 is 0.42857142857142855
+3 is Odd.
+intArr[0] is 0
+intArr[1] is 3
+intArr[2] is 6
+intArr[3] is 9
+intArr[4] is 12
+intArr[5] is 15
+intArr[6] is 18
+intArr[7] is 21
+intArr[8] is 24
+intArr[9] is 27
+stringArr[0] is zero
+stringArr[1] is one
+stringArr[2] is two
+stringArr[3] is three
+stringArr[4] is four
+stringArr[5] is five
+stringArr[6] is six
+stringArr[7] is seven
+stringArr[8] is eight
+stringArr[9] is nine
+stringArr[10] is ten
+bash-3.2$ exit
+exit
+
+Script done on Sat Feb 18 13:15:54 2017

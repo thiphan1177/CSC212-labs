@@ -4,8 +4,8 @@ import javax.swing.*;
 /**
  *  Class that demonstrates a very simple window application
  *
- *  @author Nicholas R. Howe
- *  @version CSC 212, Septemrber 2015
+ *  @author Nicholas R. Howe, Thao Phan
+ *  @version CSC 212, 24 March 2017
  */
 public class ManyWindows {
     /** This keeps track of how many windows have been opened */

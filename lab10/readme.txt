@@ -1,0 +1,5 @@
+For the 3 files, their mean # of displacements/collisions were the same as the size of the table size inputed, give or take a few tenths or hundredths of a decimal - aka when 50 elements in the states file are inserted in a table of size 101, they have a mean collision of 101.32, for a table of size 151, they have a mean collision of 151, for a table of size 199, they have a mean of 199.
+
+When it came to the maximum # of collisions, these values were often bigger than the mean values which makes sense seeing as how they are the maximums.
+
+In addition to the maximum collisions, I predicted that as the size of the table got bigger, if 50 elements were to be inserted, then the # of collisions for a table of size 101 would be bigger than for a table of 151 or 199 because there is more space in those latter tables. However, analyzing the data, it tells me that as the size of the table gets bigger when 50 elements are inserted, their max # of collisions grows as well. The number of the collisions are bigger than the respective table sizes.

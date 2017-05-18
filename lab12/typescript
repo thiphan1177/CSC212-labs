@@ -1,0 +1,83 @@
+Script started on Thu Apr 27 16:56:52 2017
+[?1034hbash-3.2$ javac *.java
+bash-3.2$ java d[KDemoExceptions
+Entering main.
+Entering method1.
+Entering method2.
+Entering method3.
+Caught Exception in method2: java.lang.ArithmeticException: / by zero
+Exiting method2.
+Exiting method1.
+Exiting main.
+bash-3.2$ java PackItems
+Caught exception in main: java.lang.ArrayIndexOutOfBoundsException: 5
+Caught exception in WHILE: BoxFullException
+Box 0 item 0: size 10.
+Box 0 item 1: size 25.
+Box 0 item 2: size 50.
+Box 0 item 3: size 50.
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 4, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 5, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 6, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 7, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 8, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 9, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 10, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 11, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 12, Size: 4
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 4, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 5, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 6, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 7, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 8, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 9, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 10, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 11, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 12, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 4, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 5, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 6, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 7, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 8, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 9, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 10, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 11, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 12, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 4, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 5, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 6, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 7, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 8, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 9, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 10, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 11, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 12, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 0, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 1, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 2, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 3, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 4, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 5, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 6, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 7, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 8, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 9, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 10, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 11, Size: 0
+Caught exception in PRINT BOX: java.lang.IndexOutOfBoundsException: Index: 12, Size: 0
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr 27 16:57:31 2017

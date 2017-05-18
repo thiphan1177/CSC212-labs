@@ -1,0 +1,124 @@
+Script started on Thu Apr 13 19:24:21 2017
+[?1034hbash-3.2$ javac *.java
+bash-3.2$ java TableStats 101 < states.txt
+Done.  Final report:
+Created a table with 101 slots.
+Inserted 50 elements.
+Total number of displacements:  5066.0
+Mean displacement:  101.32
+Maximum displacement:  105
+Mean search on lookup:  101.77227722772277
+Largest cluster:  108
+bash-3.2$ java TableStats 101 < states.txt
+Done.  Final report:
+Created a table with 151 slots.
+Inserted 50 elements.
+Total number of displacements:  7557.0
+Mean displacement:  151.14
+Maximum displacement:  153
+Mean search on lookup:  151.19205298013244
+Largest cluster:  154
+bash-3.2$ java TableStats 151 < states.txt
+Done.  Final report:
+Created a table with 199 slots.
+Inserted 50 elements.
+Total number of displacements:  9957.0
+Mean displacement:  199.14
+Maximum displacement:  201
+Mean search on lookup:  199.15075376884423
+Largest cluster:  203
+bash-3.2$ java TableStats 101 < animals.txt
+Done.  Final report:
+Created a table with 101 slots.
+Inserted 80 elements.
+Total number of displacements:  8079.0
+Mean displacement:  100.9875
+Maximum displacement:  113
+Mean search on lookup:  91.7128712871287
+Largest cluster:  126
+bash-3.2$ java TableStats 151 < animals.txt
+Done.  Final report:
+Created a table with 151 slots.
+Inserted 80 elements.
+Total number of displacements:  12121.0
+Mean displacement:  151.5125
+Maximum displacement:  158
+Mean search on lookup:  149.98675496688742
+Largest cluster:  160
+bash-3.2$ java TableStats 199 < animals.txt
+Done.  Final report:
+Created a table with 199 slots.
+Inserted 80 elements.
+Total number of displacements:  15946.0
+Mean displacement:  199.325
+Maximum displacement:  204
+Mean search on lookup:  199.40201005025125
+Largest cluster:  206
+bash-3.2$ java TableStats 101 < foods.txt
+Done.  Final report:
+Created a table with 101 slots.
+Inserted 95 elements.
+Total number of displacements:  9614.0
+Mean displacement:  101.2
+Maximum displacement:  138
+Mean search on lookup:  108.79207920792079
+Largest cluster:  164
+bash-3.2$ java TableStats 151 < foods.txt
+Done.  Final report:
+Created a table with 151 slots.
+Inserted 95 elements.
+Total number of displacements:  14421.0
+Mean displacement:  151.8
+Maximum displacement:  158
+Mean search on lookup:  146.74834437086093
+Largest cluster:  162
+bash-3.2$ java TableStats 199 < foods.txt
+Done.  Final report:
+Created a table with 199 slots.
+Inserted 95 elements.
+Total number of displacements:  18935.0
+Mean displacement:  199.31578947368422
+Maximum displacement:  204
+Mean search on lookup:  199.5678391959799
+Largest cluster:  206
+bash-3.2$ java TestTable
+Mistaken:
+Row:	Key:	Data:
+0	343	third
+1	258	fifth
+2	702	first
+3	149	fouth
+4	***	Empty
+5	***	Empty
+6	426	second
+Corrected:
+Row:	Key:	Data:
+0	343	third
+1	258	fifth
+2	702	first
+3	149	fourth
+4	***	Empty
+5	***	Empty
+6	426	second
+
+Data stored under key 149:  fourth
+Data stored under key 343:  third
+Data stored under key 258:  fifth
+
+Modified:
+Row:	Key:	Data:
+0	258	fifth
+1	***	Empty
+2	702	first
+3	149	fourth
+4	***	Empty
+5	***	Empty
+6	426	second
+
+Data stored under key 149:  fourth
+Data stored under key 343:  null
+Data stored under key 258:  fifth
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr 13 19:26:05 2017

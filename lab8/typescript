@@ -1,0 +1,137 @@
+Script started on Thu 30 Mar 2017 06:04:54 PM EDT
+[4maurora[24m:[1m~/lab8[0m> javac *.java
+[4maurora[24m:[1m~/lab8[0m> java TreePractice.[K
+t1 tree :
+Root:  4.0
+  Left:  3.5
+    Left:  1.25
+    Right:  3.75
+  Right:  5.5
+    Left:  4.75
+    Right:  8.5
+      Left:  7.0
+      Right:  13.0
+print1 method :
+4.0
+3.5
+1.25
+3.75
+5.5
+4.75
+8.5
+7.0
+13.0
+print2 method :
+1.25
+3.5
+3.75
+4.0
+4.75
+5.5
+7.0
+8.5
+13.0
+print3 method :
+1.25
+3.75
+3.5
+4.75
+7.0
+13.0
+8.5
+5.5
+4.0
+[4maurora[24m:[1m~/lab8[0m> java TestBinaryTree
+t1 tree :
+Root:  4.0
+  Left:  3.5
+    Left:  1.25
+    Right:  3.75
+  Right:  5.5
+    Left:  4.75
+    Right:  8.5
+      Left:  7.0
+      Right:  13.0
+t1 tree printed again :
+Root:  4.0
+  Left:  3.5
+    Left:  1.25
+    Right:  3.75
+  Right:  5.5
+    Left:  4.75
+    Right:  8.5
+      Left:  7.0
+      Right:  13.0
+t2 tree :
+Root:  -1.0
+  Left:  3.5
+    Left:  1.25
+    Right:  3.75
+  Right:  5.5
+    Left:  4.75
+    Right:  8.5
+      Left:  7.0
+      Right:  13.0
+t1 tree printed again after changing something in t3 tree:
+Root:  4.0
+  Left:  3.5
+    Left:  1.25
+    Right:  3.75
+  Right:  5.5
+    Left:  4.75
+    Right:  6.25
+t4 tree: 
+Root:  0.0
+  Left:  4.0
+    Left:  3.5
+      Left:  1.25
+      Right:  3.75
+    Right:  5.5
+      Left:  4.75
+      Right:  6.25
+  Right:  4.0
+    Left:  3.5
+      Left:  1.25
+      Right:  3.75
+    Right:  5.5
+      Left:  4.75
+      Right:  6.25
+t1 tree printed again :
+Root:  4.0
+  Left:  3.5
+    Left:  1.25
+    Right:  3.75
+  Right:  5.5
+    Left:  4.75
+    Right:  6.25
+t1 tree again: 
+Root:  4.0
+  Left:  3.5
+    Left:  1.25
+    Right:  3.75
+  Right:  5.5
+    Left:  4.75
+    Right:  6.25
+      Left:  999.0
+t4 tree again: 
+Root:  0.0
+  Left:  4.0
+    Left:  3.5
+      Left:  1.25
+      Right:  3.75
+    Right:  5.5
+      Left:  4.75
+      Right:  6.25
+        Left:  999.0
+  Right:  4.0
+    Left:  3.5
+      Left:  1.25
+      Right:  3.75
+    Right:  5.5
+      Left:  4.75
+      Right:  6.25
+        Left:  999.0
+[4maurora[24m:[1m~/lab8[0m> exit
+exit
+
+Script done on Thu 30 Mar 2017 06:05:23 PM EDT

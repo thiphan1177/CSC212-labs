@@ -1,0 +1,42 @@
+Script started on Thu Apr 13 20:01:04 2017
+[?1034hbash-3.2$ java TestTable
+Mistaken:
+Row:	Key:	Data:
+0	343	third
+1	258	fifth
+2	702	first
+3	149	fouth
+4	***	Empty
+5	***	Empty
+6	426	second
+Corrected:
+Row:	Key:	Data:
+0	343	third
+1	258	fifth
+2	702	first
+3	149	fourth
+4	***	Empty
+5	***	Empty
+6	426	second
+
+Data stored under key 149:  fourth
+Data stored under key 343:  third
+Data stored under key 258:  fifth
+
+Modified:
+Row:	Key:	Data:
+0	258	fifth
+1	***	Empty
+2	702	first
+3	149	fourth
+4	***	Empty
+5	***	Empty
+6	426	second
+
+Data stored under key 149:  fourth
+Data stored under key 343:  null
+Data stored under key 258:  fifth
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr 13 20:01:13 2017

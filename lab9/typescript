@@ -1,0 +1,51 @@
+Script started on Thu Apr  6 21:11:39 2017
+[?1034hbash-3.2$ javac *.java
+bash-3.2$ java HeapTest
+Heap contents:
+505 
+99 405 
+54 72 115 89 
+1 51 7 63 4 25 14 
+
+Popping off items from the heap: 
+Heap contents:
+405 
+99 14 
+54 72 115 89 
+1 51 7 63 4 25 
+Heap contents:
+99 
+25 14 
+54 72 115 89 
+1 51 7 63 4 
+Heap contents:
+25 
+4 14 
+54 72 115 89 
+1 51 7 63 
+Heap contents:
+63 
+4 14 
+54 72 115 89 
+1 51 7 
+
+Printing out the heap after filling it with a for-loop: 
+Heap contents:
+9 
+1 6 
+-3 -2 2 3 
+-7 
+
+Printing out array in the for-loop: [9, 0, 0, 0, 0, 0, 0, 0]
+Printing out array in the for-loop: [9, 6, 0, 0, 0, 0, 0, 0]
+Printing out array in the for-loop: [9, 6, 3, 0, 0, 0, 0, 0]
+Printing out array in the for-loop: [9, 6, 3, 2, 0, 0, 0, 0]
+Printing out array in the for-loop: [9, 6, 3, 2, 1, 0, 0, 0]
+Printing out array in the for-loop: [9, 6, 3, 2, 1, -2, 0, 0]
+Printing out array in the for-loop: [9, 6, 3, 2, 1, -2, -3, 0]
+Printing out array in the for-loop: [9, 6, 3, 2, 1, -2, -3, -7]
+Printing out the array after the loop: [9, 6, 3, 2, 1, -2, -3, -7]
+bash-3.2$ exit
+exit
+
+Script done on Thu Apr  6 21:11:54 2017
